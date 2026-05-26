@@ -56,8 +56,28 @@ body{
     display: block;
 }
 
-.ativo{
-    background-color: var(--botao-ativo);
-    border-bottom: var(--verde);
-    
+.abas-textos{
+    background-color:var(--texto-fundo);
+    padding: 40px;
+}
+.aba-conteudo-titulo-principal{
+    font: siz 28px;
+    text-align: center;
+
+}
+.aba-conteudo-titulo-secundario{
+    text-align: center;
+    color:var(-- --verde);
+    text-transform:uppercase;
+}
+@media screen and(min-width: 768px){
+    .botoes{
+        display:flex;
+    }
+    .botão:first-child{
+        border-radius:40px 000;
+    }
+    .botao:last-child{
+        border-radius:040px 00
+    }
 }
